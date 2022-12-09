@@ -1,0 +1,14 @@
+header {
+    background-color:$white;
+    border-bottom: 2px solid $lightBlue;
+
+    .size-logo {
+        width: 7rem;
+    }
+
+   .nav-item-style {
+    text-transform: uppercase;
+    margin: 0 2.5rem;
+    color: $blue;
+   }
+}

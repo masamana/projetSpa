@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "RobotoRegular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "RobotoBold";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "RobotoRegular";
+  color: #22234f;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+h1::after {
+  content: "";
+  display: block;
+  background-color: #ef4d55;
+  height: 2px;
+  width: 15%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "RobotoRegular";
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: auto;
+}
+
+header {
+  background-color: white;
+  border-bottom: 2px solid #eaf0ff;
+}
+header .size-logo {
+  width: 7rem;
+}
+header .nav-item-style {
+  text-transform: uppercase;
+  margin: 0 2.5rem;
+  color: #22234f;
+}
+
+#adoptions {
+  max-width: 1320px;
+  margin: 50px auto;
+}
+#adoptions .adoption {
+  display: flex;
+  height: 300px;
+}
+#adoptions .adoption .dog {
+  background-image: url(../img/chiens-adoption-spa.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  position: relative;
+  margin: 5px;
+}
+#adoptions .adoption .cat {
+  background-image: url(../img/chats-adoption-spa.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  position: relative;
+  margin: 5px;
+}
+
+#icons {
+  margin: 50px;
+}
+#icons .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#icons .icon-size {
+  width: 50%;
+}
+
+#swiper {
+  background-color: #eaf0ff;
+}
+#swiper h2 {
+  padding: 20px;
+}
+#swiper h2::after {
+  content: "";
+  display: block;
+  background-color: #ef4d55;
+  height: 2px;
+  width: 15%;
+  margin: 0 auto;
+}
+
+#swiper {
+  background-color: #eaf0ff;
+}
+#swiper h2 {
+  padding: 20px;
+}
+#swiper h2::after {
+  content: "";
+  display: block;
+  background-color: #ef4d55;
+  height: 2px;
+  width: 15%;
+  margin: 0 auto;
+}
+#swiper .swiper {
+  width: 100%;
+  height: 100%;
+}
+#swiper .swiper .swip-container {
+  position: relative;
+}
+#swiper .swiper .swip-container .swip-content {
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translateX(-50%);
+  background-color: white;
+  width: 75%;
+  cursor: pointer;
+}
+#swiper .swiper .swip-container .swip-content .visibility {
+  height: 0;
+}
+#swiper .swiper .swip-container .swip-content .visibility:hover {
+  height: 6rem;
+}
+#swiper .swiper .swip-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#swiper .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.adopt-btn {
+  color: white;
+  text-align: center;
+  background-color: #22234f;
+  padding: 15px;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+
+/*# sourceMappingURL=style.css.map */
